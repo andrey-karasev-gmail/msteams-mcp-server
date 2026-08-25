@@ -34,10 +34,10 @@ An MCP server for Microsoft Teams via the Microsoft Graph API. Manage presence, 
 ### 2. Install
 
 ```bash
-npx -y @web4w3/install msteams
+npx -y @web4w3/msteams-mcp-server
 ```
 
-No cloning or build step needed. The package is pre-compiled and available on npm as [`@web4w3/install`](https://www.npmjs.com/package/@web4w3/install).
+No cloning or build step needed. The package is pre-compiled and available on npm as [`@web4w3/msteams-mcp-server`](https://www.npmjs.com/package/@web4w3/msteams-mcp-server).
 
 ### 3. Add to Claude config
 
@@ -46,7 +46,7 @@ No cloning or build step needed. The package is pre-compiled and available on np
   "mcpServers": {
     "msteams": {
       "command": "npx",
-      "args": ["-y", "@web4w3/install", "msteams"],
+      "args": ["-y", "@web4w3/msteams-mcp-server"],
       "env": {
         "AZURE_TENANT_ID": "your-tenant-id",
         "AZURE_CLIENT_ID": "your-client-id",

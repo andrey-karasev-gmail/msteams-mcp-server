@@ -1,9 +1,23 @@
 {
-  "name": "msteams-mcp-server",
+  "name": "@web4w3/msteams-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Microsoft Teams via MS Graph API",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "msteams-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrey-karasev-gmail/msteams-mcp-server.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
