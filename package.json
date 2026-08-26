@@ -16,9 +16,6 @@
     "url": "https://github.com/andrey-karasev-gmail/msteams-mcp-server.git"
   },
   "homepage": "https://web4w3.com/projects/MSTeams",
-  "bugs": {
-    "url": "https://github.com/andrey-karasev-gmail/msteams-mcp-server/issues"
-  },
   "publishConfig": {
     "access": "public"
   },
